@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+}
+body{
+    font:16px/1.3 'Segoe UI',Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+    background-color: #dedede;
+}
+/*fixed header of page*/
+#header{
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    background: #3b5998;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+/*Text in header*/
+#header .head_text{	
+    float: left;
+    margin-left: 20px;
+    width: auto;
+    color: #fff;
+}
+/*container of container and navigation*/
+#mainContainer{
+    background-color: #fff;
+    min-height: 655px;
+    overflow: visible;
+    width: 50%;
+    margin: auto;
+    
+}
+/*box in login page <left>*/
+#mainContainer .box{
+    float: left;
+    margin-top: 175px;
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+}
+/*box in login page <right>*/
+#mainContainer .box2{
+    float: left;
+    width: 300px;
+    margin-top: 175px;
+    margin-left: 250px;
+    height: 300px;
+    border: solid 1px;
+    
+}
+#wrap{
+    width: 100%;
+    margin: auto;
+}
+
+/*contents of the page */
+/*
+#container{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    height: 98%;
+}
+#content{
+    padding: 16px;
+    float: left;
+    margin-top: 10px;
+    width: 75%;
+    height: 84.5%;
+    text-align: left;
+}
+table th, td{
+    padding: 4px;
+}
+table th, td{
+    margin-right: 2px;
+}*/
+/*search form in voter page*/
+.search{
+    float: left;
+    padding: 10px;
+    width: auto;
+}
+.submit{
+    color: #fff !important;
+    border: solid 1px #c0c0c0;
+    background-color: #3b5998;
+    width: 80px;
+}
+.separator{
+            font-size:18px;
+            vertical-align: middle;
+        }
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 14px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+.classname:hover {
+	background-color:#dfdfdf;
+}
+.classname:active {
+	position:relative;
+	top:1px;
+}
+.report{
+    color: #fff !important;
+    border: solid 1px #c0c0c0;
+    background-color: #3b5998;
+    width: 120px;
+}
+.search input{
+    color: #000;
+    padding: 6px;
+}
+/*container of home and logout button*/
+#navigator{
+    margin-top: 75px;
+    width: 100%;
+    height: 25px;
+    padding: 5px 0 5px 28px;
+    border-bottom: solid 1px;
+    
+}
+#navigator img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+#navigator ul li{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+#nav_left{
+    float: left;
+    display: inline;
+    width: 43%;
+    height: 100%;
+}
+#nav_right{
+    float: right;
+    display: inline;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+/*Navigation <Menu> right side of the page*/
+#navigation{
+    float: right;
+    width: 22.5%;
+    height: 440px;
+}
+#navigation ul{
+    text-align: left;
+    padding: 0 0 0 30px;
+    
+}
+#navigation li a:link, #navigation li a:visited {
+    color: #000;
+    display: block;
+    padding: 8px 0 0 10px;
+}
+#navigation h3{
+        padding-top: 20px;
+        padding-left: 20px;
+}
+/*This is the left border in navigation*/
+#line{
+    border-left: dashed 1px;
+    height: 300px;
+}
+/*Login form upper right corner of page*/
+#nav_top{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 10px;
+    
+}
+/*
+#loginForm {
+	margin-top: 175px;
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	border: solid 2px red;
+	
+}
+#loginForm fieldset{
+	padding: 10px;
+	text-align: center;
+	size: 1px;
+	color: #c0c0c0;
+	
+}
+#loginForm form{
+    display: inline;
+}
+#loginForm input{
+    margin-bottom: 5px;
+    padding: 2px;
+}
+#loginForm button{
+    background: #3b5998;
+    width: 60px;
+    color: #fff;
+}
+*/
+/*--------Footer---------*/
+#footer{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-top: solid 1px #d5dbe8;
+    height: 50px;
+    font-size: 14px;
+    font-family: courier monospace;
+    color: #b3b4b5;
+    
+}
+/*footer content <LEFT>*/
+#footer .f_left{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+/*footer content <RIGHT>*/
+#footer .f_right{
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+    text-align: right;
+    width: 40%;
+}   
